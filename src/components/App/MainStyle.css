@@ -1,0 +1,68 @@
+@import url('reset.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  color: #515151;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e3007b;
+}
+
+img, iframe {
+  width: 100%;
+  margin: 20px 0;
+}
+
+
+#app {
+  background-color: white;
+  width: 801px;
+  padding: 80px 75px 0 75px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #888888;
+  height: 100%;
+  border-radius: 0 0 4px 4px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+h1 span {
+  color: #e3007b;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+#main-nav {
+  border-top: 1.3px dotted #515151;
+  border-bottom: 1.3px dotted #515151;
+}
+
+#main-nav li {
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 50px;
+  margin: 15px 0 15px 0;
+}
+
+#main-nav li:nth-child(1) {
+  padding-left: 10px;
+}

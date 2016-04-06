@@ -1,0 +1,147 @@
+.post-header-wrapp {
+  border-top: 1px dotted #515151;
+  border-bottom: 1px dotted #515151;
+  min-height: 75px;
+  padding: 20px 0 15px 0;
+}
+
+.post-header-wrapp .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 0;
+  border-color: #737373 transparent transparent transparent;
+  position: absolute;
+}
+
+.post-header-wrapp h2 {
+  vertical-align: top;
+  padding-left: 45px;
+  font-size: 21px;
+  color: #e3007b;
+  font-weight: 700;
+  padding-right: 135px;
+}
+
+.post-header-wrapp .date-contaier {
+  float: right;
+  height: 50px;
+  width: 100px;
+}
+
+.post-header-wrapp .date-contaier .triangle-date {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  float: left;
+  border-width: 0 0 50px 50px;
+  border-color: transparent transparent #ececec transparent;
+}
+
+.post-header-wrapp .date-contaier .squar {
+  background-color: #ececec;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.post-header-wrapp .date-contaier .squar .date-day {
+  font-size: 23px;
+  font-weight: 700;
+  color: #737373;
+}
+
+.post-header-wrapp .date-contaier .squar .date-month {
+  font-size: 11px;
+  font-weight: 700;
+  color: #737373;
+}
+
+.dotted-line {
+  border: none;
+  border-bottom: 1.3px dotted #515151;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.post-content {
+  border-top: 1.3px dotted #515151;
+  border-bottom: 1.3px dotted #515151;
+  padding: 0 135px 0 40px;
+}
+
+.post-content p {
+  margin: 20px 0 30px 0;
+  font-size: 14px;
+  line-height: 1.4em;
+  text-transform: none;
+}
+
+.post-navigation {
+  margin: 10px 0 30px 0;
+  clear: both;
+}
+
+.post-navigation::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.post-navigation .left-wrapper, .right-wrapper {
+  float: left;
+  width: 50%;
+}
+
+.post-navigation .right-wrapper {
+  text-align: right;
+}
+
+.post-navigation .next, .previus {
+  font-size: 0;
+  display: inline-block;
+}
+
+.post-navigation .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 17px 17px;
+  border-color: transparent transparent #e3007d transparent;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.post-navigation .text {
+  color: #fff;
+  width: 70px;
+  background-color: #e3007b;
+  font-weight: 700;
+  padding: 3px 10px;
+  font-size: 11px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.post-navigation .next .text {
+  text-align: left;
+}
+
+.post-navigation .next .triangle {
+  border-width: 17px 17px 0 0;
+  border-color: #e3007d transparent transparent transparent;
+}
+
+.post-navigation a:hover .triangle {
+  border-color: #b00061 transparent transparent transparent;
+}
+
+.post-navigation a.previus:hover .triangle {
+  border-color: transparent transparent #b00061 transparent;
+}
+
+.post-navigation a:hover .text {
+  background-color: #b00061;
+}

@@ -1,0 +1,89 @@
+
+.post-header-wrapp {
+  border-top: 1px dotted #515151;
+  border-bottom: 1px dotted #515151;
+  min-height: 75px;
+  padding: 20px 0 15px 0;
+}
+
+.post-header-wrapp .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 0;
+  border-color: #737373 transparent transparent transparent;
+  position: absolute;
+}
+
+.post-header-wrapp h2 {
+  vertical-align: top;
+  padding-left: 45px;
+  font-size: 21px;
+  color: #e3007b;
+  font-weight: 700;
+  padding-right: 135px;
+}
+
+.dotted-line {
+  border: none;
+  border-bottom: 1.3px dotted #515151;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.post-content {
+  border-top: 1.3px dotted #515151;
+  padding: 0 135px 0 40px;
+}
+
+.contact-form {
+  width: 380px;
+  margin: 30px 0 40px 90px;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.wrapp-name-email {
+  clear: both;
+}
+
+.wrapp-name-email::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapp-name-email .name, .email {
+  float: left;
+  width: 50%;
+}
+
+.contact-form input, textarea {
+  margin: 5px 0 20px 0;
+  border-radius: 3px;
+  border: 1px solid #666;
+  height: 25px;
+  width: 180px;
+}
+
+.contact-form textarea {
+  width: 370px;
+  height: 250px;
+}
+
+textarea, input {
+  outline: none;
+}
+
+.contact-form #submit-contact-form {
+  background-color: #666;
+  color: #fff;
+  font-family: "Montserrat", arial;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  margin: 0 10px 0 0;
+  float: right;
+}
